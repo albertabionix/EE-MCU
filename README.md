@@ -1,6 +1,6 @@
-# EE-XX-Firmware
+# EE-MCU
 
-This repo holds the firmware for [brief description of team].
+This repo holds the firmware for MCU team.
 
 ## Contributing Members
 
@@ -53,7 +53,7 @@ GitHub no longer accepts passwords for git operations. Easiest fix: install [Git
 ### 5. Clone the repo
 ```bash
 git clone <repo-url>
-cd EE-XX-Firmware
+cd EE-MCU
 ```
 Copy `<repo-url>` from the green **Code** button on the GitHub repo page.
  
