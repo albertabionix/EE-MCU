@@ -6,9 +6,9 @@ This repo holds the firmware for MCU team.
 
 | First Name | Username | Project |
 |---|---|---|
-| Name | @user | task |
-|  |  |  |
-|  |  |  |
+| Dylan | @dsheen22 | Lead |
+| Carlson | @carlzhng |  |
+| Jackson | @Shadire26 |  |
 
 (Fill in your information in the above table if you contribute to this repo)
 
