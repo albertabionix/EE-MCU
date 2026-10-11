@@ -1,0 +1,1023 @@
+{
+  "$schema": "https://docs.harness.design/files/harness/schema/v0.9.json",
+  "$docs": "https://docs.harness.design/files/harness/editing-guide.md",
+  "version": 0.9,
+  "lengthUnit": "mm",
+  "pdfExportSettings": {
+    "parts": {
+      "columns": [
+        "PartNumber",
+        "Manufacturer",
+        "Details",
+        "Description",
+        "Quantity",
+        "Price",
+        "TotalPrice"
+      ],
+      "pageMode": "Single",
+      "pageSize": "A4"
+    },
+    "layout": {
+      "showParts": false,
+      "showCoverings": false,
+      "showAccessories": false,
+      "showComponentIds": false
+    },
+    "schematic": {
+      "showParts": false,
+      "showCoverings": false,
+      "showAccessories": false,
+      "showComponentIds": false
+    },
+    "includeNotes": false,
+    "includeParts": false,
+    "includeLayout": true,
+    "wireThickness": "Regular",
+    "includeSchematic": true,
+    "includeTitleBlock": false
+  },
+  "wires": [
+    {
+      "id": "tIqSWc",
+      "color": "Red",
+      "source": {
+        "id": "biYQK0",
+        "handle": "nhFqEM"
+      },
+      "target": {
+        "id": "GBhXAJ",
+        "handle": "YxXt-L"
+      }
+    },
+    {
+      "id": "2iiWJx",
+      "color": "Blue",
+      "source": {
+        "id": "biYQK0",
+        "handle": "P7AM4Y"
+      },
+      "target": {
+        "id": "GBhXAJ",
+        "handle": "PdZYF_"
+      }
+    },
+    {
+      "id": "ce9z-m",
+      "color": "Black",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "0YQDD0"
+      },
+      "target": {
+        "id": "co34Tm",
+        "handle": "2oP8km"
+      }
+    },
+    {
+      "id": "YL00AX",
+      "color": "White",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "8Skvoe"
+      },
+      "target": {
+        "id": "co34Tm",
+        "handle": "5oR31A"
+      }
+    },
+    {
+      "id": "MqN9Mn",
+      "color": "Orange",
+      "source": {
+        "id": "gKajIN",
+        "handle": "dpdqvg"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "KkpNZP"
+      }
+    },
+    {
+      "id": "rFVo5k",
+      "color": "Orange",
+      "source": {
+        "id": "gKajIN",
+        "handle": "U83-D2"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "spiNCS"
+      }
+    },
+    {
+      "id": "QlWUtg",
+      "color": "Orange",
+      "source": {
+        "id": "gKajIN",
+        "handle": "qH59st"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "spiMISO"
+      }
+    },
+    {
+      "id": "rxBcxk",
+      "color": "Orange",
+      "source": {
+        "id": "gKajIN",
+        "handle": "RS3lBk"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "spiMOSI"
+      }
+    },
+    {
+      "id": "0LC0I4",
+      "color": "Yellow",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "o5EKkv"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "1sv9wb"
+      },
+      "stripeColor": "Black"
+    },
+    {
+      "id": "inl6N1",
+      "color": "Yellow",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "P5yO2k"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "uartRX"
+      },
+      "stripeColor": "Black"
+    },
+    {
+      "id": "3i28NN",
+      "color": "Green",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "ElKpFS"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "PlAfvI"
+      }
+    },
+    {
+      "id": "bk9mcA",
+      "color": "Green",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "hnHPrh"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "encB"
+      }
+    },
+    {
+      "id": "3D6Lrh",
+      "color": "Green",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "l3avyV"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "encZ"
+      }
+    },
+    {
+      "id": "MtaI3D",
+      "color": "Red",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "t5odCB"
+      },
+      "target": {
+        "id": "co34Tm",
+        "handle": "khb9zk"
+      }
+    },
+    {
+      "id": "_ZtVQg",
+      "color": "Violet",
+      "source": {
+        "id": "gKajIN",
+        "handle": "SVNLWV"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "t_M2at",
+      "color": "Violet",
+      "source": {
+        "id": "gKajIN",
+        "handle": "PRrGsk"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "iah9qv",
+      "color": "Red",
+      "source": {
+        "id": "gKajIN",
+        "handle": "-ab8gR"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "NlpXin",
+      "color": "Red",
+      "source": {
+        "id": "gKajIN",
+        "handle": "8CNpuK"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "3S213C",
+      "color": "Violet",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "SCuEsa"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "Zhr3af"
+      },
+      "stripeColor": "Black"
+    },
+    {
+      "id": "EqkX1U",
+      "color": "Red",
+      "source": {
+        "id": "co34Tm",
+        "handle": "Er_-kQ"
+      },
+      "target": {
+        "id": "CxBvYe",
+        "handle": "HqY3Wm"
+      }
+    },
+    {
+      "id": "OOUPjv",
+      "color": "Orange",
+      "source": {
+        "id": "co34Tm",
+        "handle": "xdQDbr"
+      },
+      "target": {
+        "id": "CxBvYe",
+        "handle": "RUlngI"
+      }
+    },
+    {
+      "id": "jQ0n6U",
+      "color": "Yellow",
+      "source": {
+        "id": "co34Tm",
+        "handle": "pYlsbp"
+      },
+      "target": {
+        "id": "CxBvYe",
+        "handle": "7SBBFx"
+      }
+    },
+    {
+      "id": "Ev5ep8",
+      "color": "Green",
+      "source": {
+        "id": "co34Tm",
+        "handle": "PBSpAT"
+      },
+      "target": {
+        "id": "CxBvYe",
+        "handle": "SzpKGm"
+      }
+    },
+    {
+      "id": "8tpAVg",
+      "color": "Blue",
+      "source": {
+        "id": "co34Tm",
+        "handle": "7qeGfM"
+      },
+      "target": {
+        "id": "CxBvYe",
+        "handle": "3KUaBR"
+      }
+    },
+    {
+      "id": "a-KKlb",
+      "color": "Red",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "1JFwtv"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "aebMBZ"
+      }
+    },
+    {
+      "id": "XeAb-0",
+      "color": "Red",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "FoWDt8"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "k68keg"
+      }
+    },
+    {
+      "id": "PEat9V",
+      "color": "Orange",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "mxQwnD"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "wfUIM1"
+      }
+    },
+    {
+      "id": "bJVT4d",
+      "color": "Yellow",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "rgbULC"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "WAIQg-"
+      }
+    },
+    {
+      "id": "6QiUo1",
+      "color": "Violet",
+      "source": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "v5Nays"
+      }
+    },
+    {
+      "id": "43lp_V",
+      "color": "Red",
+      "source": {
+        "id": "PK6V0e",
+        "handle": "k68keg"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "6ieK-z",
+      "color": "Green",
+      "source": {
+        "id": "h1dpTN",
+        "handle": "kvtBYW"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "8KLgL3"
+      }
+    },
+    {
+      "id": "2bxkU8",
+      "color": "Green",
+      "source": {
+        "id": "h1dpTN",
+        "handle": "3gC3oW"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "i2cSCL"
+      }
+    },
+    {
+      "id": "CpKvcz",
+      "color": "Violet",
+      "source": {
+        "id": "h1dpTN",
+        "handle": "z0_eCq"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "9hmCcG",
+      "color": "Red",
+      "source": {
+        "id": "h1dpTN",
+        "handle": "aHEYUO"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "NGL3vj",
+      "color": "Red",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "1zpYgz"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "H7wdQo",
+      "color": "Violet",
+      "source": {
+        "id": "t5Zsno",
+        "handle": "SXZ012"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "Zlu-0X",
+      "source": {
+        "id": "biYQK0",
+        "handle": "nhFqEM"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "yVQySL"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "CGMaK7",
+      "source": {
+        "id": "PK6V0e",
+        "handle": "2sDmRa"
+      },
+      "target": {
+        "id": "biYQK0",
+        "handle": "P7AM4Y"
+      },
+      "color": "Blue"
+    },
+    {
+      "id": "XLVFPv",
+      "color": "Red",
+      "source": {
+        "id": "gKajIN",
+        "handle": "QIMtSV"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      }
+    },
+    {
+      "id": "4eu0HT",
+      "source": {
+        "id": "PK6V0e",
+        "handle": "v5Nays"
+      },
+      "target": {
+        "id": "p35N51",
+        "handle": "Splice"
+      },
+      "color": "Violet"
+    },
+    {
+      "id": "JUPv1z",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "er6uDs"
+      },
+      "target": {
+        "id": "p35N51",
+        "handle": "Splice"
+      },
+      "color": "Violet",
+      "stripeColor": "Black"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gKajIN",
+      "label": "RLS Knee Encoder",
+      "cavities": [
+        {
+          "id": "SVNLWV",
+          "signal": "Vdd"
+        },
+        {
+          "id": "PRrGsk",
+          "signal": "Vdd"
+        },
+        {
+          "id": "-ab8gR",
+          "signal": "GND"
+        },
+        {
+          "id": "8CNpuK",
+          "signal": "GND"
+        },
+        {
+          "id": "dpdqvg",
+          "signal": "SCK"
+        },
+        {
+          "id": "U83-D2",
+          "signal": "NCS"
+        },
+        {
+          "id": "QIMtSV",
+          "signal": "Cable Shield"
+        },
+        {
+          "id": "qH59st",
+          "signal": "MISO"
+        },
+        {
+          "id": "RS3lBk",
+          "signal": "MOSI"
+        }
+      ],
+      "layoutPosition": {
+        "x": 270,
+        "y": 480
+      },
+      "schematicPosition": {
+        "x": 240,
+        "y": 450
+      }
+    },
+    {
+      "id": "t5Zsno",
+      "label": "AMT132",
+      "cavities": [
+        {
+          "id": "o5EKkv",
+          "signal": "RX_ENC+"
+        },
+        {
+          "id": "P5yO2k",
+          "signal": "TX_ENC+"
+        },
+        {
+          "id": "1zpYgz",
+          "signal": "GND"
+        },
+        {
+          "id": "SXZ012",
+          "signal": "+5V"
+        },
+        {
+          "id": "ElKpFS",
+          "signal": "A+"
+        },
+        {
+          "id": "hnHPrh",
+          "signal": "B+"
+        },
+        {
+          "id": "l3avyV",
+          "signal": "Z+"
+        },
+        {
+          "id": "SCuEsa",
+          "signal": "MCLR"
+        }
+      ],
+      "layoutPosition": {
+        "x": 270,
+        "y": 300
+      },
+      "schematicPosition": {
+        "x": 240,
+        "y": 780
+      }
+    },
+    {
+      "id": "h1dpTN",
+      "label": "IMU",
+      "partId": "LZuSfmfWcCyoUp8fN4Uld",
+      "cavities": [
+        {
+          "id": "aHEYUO",
+          "signal": "GND"
+        },
+        {
+          "id": "z0_eCq",
+          "signal": "VCC"
+        },
+        {
+          "id": "kvtBYW",
+          "signal": "SDA"
+        },
+        {
+          "id": "3gC3oW",
+          "signal": "SCL"
+        }
+      ],
+      "layoutPosition": {
+        "x": 270,
+        "y": 390
+      },
+      "schematicPosition": {
+        "x": 240,
+        "y": 240
+      }
+    },
+    {
+      "id": "GBhXAJ",
+      "label": "ZS-X11H (PWR)",
+      "cavities": [
+        {
+          "id": "t5odCB",
+          "signal": "MA"
+        },
+        {
+          "id": "0YQDD0",
+          "signal": "MB"
+        },
+        {
+          "id": "8Skvoe",
+          "signal": "MC"
+        },
+        {
+          "id": "YxXt-L",
+          "signal": "EXT. VCC"
+        },
+        {
+          "id": "PdZYF_",
+          "signal": "EXT. GND"
+        }
+      ],
+      "layoutPosition": {
+        "x": -360,
+        "y": 210
+      },
+      "schematicPosition": {
+        "x": -480,
+        "y": -270
+      }
+    },
+    {
+      "id": "co34Tm",
+      "label": "EC90",
+      "cavities": [
+        {
+          "id": "khb9zk",
+          "signal": "MA"
+        },
+        {
+          "id": "2oP8km",
+          "signal": "MB"
+        },
+        {
+          "id": "5oR31A",
+          "signal": "MC"
+        },
+        {
+          "id": "Er_-kQ",
+          "signal": "Ha"
+        },
+        {
+          "id": "xdQDbr",
+          "signal": "Hb"
+        },
+        {
+          "id": "PBSpAT",
+          "signal": "Hc"
+        },
+        {
+          "id": "7qeGfM",
+          "signal": "GND"
+        },
+        {
+          "id": "pYlsbp",
+          "signal": "VCC"
+        }
+      ],
+      "layoutPosition": {
+        "x": 120,
+        "y": 60
+      },
+      "schematicPosition": {
+        "x": -120,
+        "y": -240
+      }
+    },
+    {
+      "id": "biYQK0",
+      "label": "PSU",
+      "cavities": [
+        {
+          "id": "nhFqEM",
+          "signal": "12V"
+        },
+        {
+          "id": "P7AM4Y",
+          "signal": "GND"
+        }
+      ],
+      "layoutPosition": {
+        "x": -360,
+        "y": 150
+      },
+      "schematicPosition": {
+        "x": -1230,
+        "y": 150
+      }
+    },
+    {
+      "id": "PK6V0e",
+      "label": "MCU (NUCLEO-G474RE)",
+      "cavities": [
+        {
+          "id": "yVQySL",
+          "signal": "CN6-8 | VIN"
+        },
+        {
+          "id": "2sDmRa",
+          "signal": "CN6-7 | GND"
+        },
+        {
+          "id": "v5Nays",
+          "signal": "CN6-5 | +5V"
+        },
+        {
+          "id": "k68keg",
+          "signal": "CN6-6 | GND"
+        },
+        {
+          "id": "KkpNZP",
+          "signal": "D13 | PA5 SCK"
+        },
+        {
+          "id": "spiMISO",
+          "signal": "D12 | PA6 MISO"
+        },
+        {
+          "id": "spiMOSI",
+          "signal": "D11 | PA7 MOSI"
+        },
+        {
+          "id": "spiNCS",
+          "signal": "D10 | PB6 CS"
+        },
+        {
+          "id": "8KLgL3",
+          "signal": "CN7-21 | PB7 SDA"
+        },
+        {
+          "id": "i2cSCL",
+          "signal": "CN7-17 | PA15 SCL"
+        },
+        {
+          "id": "1sv9wb",
+          "signal": "D6 | PB10 TX"
+        },
+        {
+          "id": "uartRX",
+          "signal": "CN10-18 | PB11 RX"
+        },
+        {
+          "id": "PlAfvI",
+          "signal": "D5 | PB4 ENC A"
+        },
+        {
+          "id": "encB",
+          "signal": "D4 | PB5 ENC B"
+        },
+        {
+          "id": "encZ",
+          "signal": "CN7-4 | PD2 ENC Z"
+        },
+        {
+          "id": "aebMBZ",
+          "signal": "D8 | PA9 PWM"
+        },
+        {
+          "id": "wfUIM1",
+          "signal": "D2 | PA10 DIR"
+        },
+        {
+          "id": "WAIQg-",
+          "signal": "D9 | PC7 BRAKE"
+        },
+        {
+          "id": "Zhr3af",
+          "signal": "NC | AMT MCLR"
+        }
+      ],
+      "layoutPosition": {
+        "x": -360,
+        "y": 420
+      },
+      "schematicPosition": {
+        "x": -870,
+        "y": 330
+      }
+    },
+    {
+      "id": "CxBvYe",
+      "label": "ZS-Z11H (Motor Signal)",
+      "cavities": [
+        {
+          "id": "HqY3Wm",
+          "signal": "Ha"
+        },
+        {
+          "id": "RUlngI",
+          "signal": "Hb"
+        },
+        {
+          "id": "SzpKGm",
+          "signal": "Hc"
+        },
+        {
+          "id": "3KUaBR",
+          "signal": "GND"
+        },
+        {
+          "id": "7SBBFx",
+          "signal": "5V"
+        }
+      ],
+      "layoutPosition": {
+        "x": -360,
+        "y": 270
+      },
+      "schematicPosition": {
+        "x": -480,
+        "y": -60
+      }
+    },
+    {
+      "id": "W7NTEt",
+      "label": "ZS-Z11H (MCU Signal)",
+      "cavities": [
+        {
+          "id": "er6uDs",
+          "signal": "5V"
+        },
+        {
+          "id": "FoWDt8",
+          "signal": "GND"
+        },
+        {
+          "id": "1JFwtv",
+          "signal": "CTRL Input"
+        },
+        {
+          "id": "mxQwnD",
+          "signal": "DIR CTRL"
+        },
+        {
+          "id": "rgbULC",
+          "signal": "Brake"
+        }
+      ],
+      "layoutPosition": {
+        "x": -360,
+        "y": 330
+      },
+      "schematicPosition": {
+        "x": -480,
+        "y": 150
+      }
+    }
+  ],
+  "bundles": [
+    {
+      "id": "E7Ha-v",
+      "sourceId": "GBhXAJ",
+      "targetId": "Ra4SS1"
+    },
+    {
+      "id": "BrgQHE",
+      "sourceId": "biYQK0",
+      "targetId": "Ra4SS1"
+    },
+    {
+      "id": "NivmSo",
+      "sourceId": "co34Tm",
+      "targetId": "Ra4SS1"
+    },
+    {
+      "id": "FfvjXS",
+      "sourceId": "h1dpTN",
+      "targetId": "ZcMq4K"
+    },
+    {
+      "id": "97bmBW",
+      "sourceId": "t5Zsno",
+      "targetId": "ZcMq4K"
+    },
+    {
+      "id": "2l6en7",
+      "sourceId": "gKajIN",
+      "targetId": "ZcMq4K"
+    },
+    {
+      "id": "jtxpPx",
+      "sourceId": "CxBvYe",
+      "targetId": "Ra4SS1"
+    },
+    {
+      "id": "p0-Ig3",
+      "sourceId": "W7NTEt",
+      "targetId": "ZcMq4K"
+    },
+    {
+      "id": "5d98sU",
+      "sourceId": "PK6V0e",
+      "targetId": "ZcMq4K",
+      "length": {
+        "value": 100,
+        "unit": "mm"
+      }
+    }
+  ],
+  "splices": [
+    {
+      "id": "wt50e1",
+      "schematicPosition": {
+        "x": 150,
+        "y": 420
+      }
+    },
+    {
+      "id": "rIrVA8",
+      "schematicPosition": {
+        "x": 180,
+        "y": 450
+      }
+    },
+    {
+      "id": "p35N51",
+      "schematicPosition": {
+        "x": -630,
+        "y": 420
+      }
+    }
+  ],
+  "branchPoints": [
+    {
+      "id": "Ra4SS1",
+      "layoutPosition": {
+        "x": -30,
+        "y": 270
+      }
+    },
+    {
+      "id": "ZcMq4K",
+      "layoutPosition": {
+        "x": -90,
+        "y": 390
+      }
+    }
+  ],
+  "connectorParts": [
+    {
+      "id": "LZuSfmfWcCyoUp8fN4Uld",
+      "partNumber": "JST ZPDR-18V-S",
+      "numberOfCavities": 1
+    }
+  ]
+}
