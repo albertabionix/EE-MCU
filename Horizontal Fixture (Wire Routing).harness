@@ -1,7 +1,7 @@
 {
-  "$schema": "https://docs.harness.design/files/harness/schema/v0.9.json",
+  "$schema": "https://docs.harness.design/files/harness/schema/v1.2.json",
   "$docs": "https://docs.harness.design/files/harness/editing-guide.md",
-  "version": 0.9,
+  "version": 1.2,
   "lengthUnit": "mm",
   "pdfExportSettings": {
     "parts": {
@@ -19,13 +19,11 @@
     },
     "layout": {
       "showParts": false,
-      "showCoverings": false,
       "showAccessories": false,
       "showComponentIds": false
     },
     "schematic": {
       "showParts": false,
-      "showCoverings": false,
       "showAccessories": false,
       "showComponentIds": false
     },
@@ -37,54 +35,6 @@
     "includeTitleBlock": false
   },
   "wires": [
-    {
-      "id": "tIqSWc",
-      "color": "Red",
-      "source": {
-        "id": "biYQK0",
-        "handle": "nhFqEM"
-      },
-      "target": {
-        "id": "GBhXAJ",
-        "handle": "YxXt-L"
-      }
-    },
-    {
-      "id": "2iiWJx",
-      "color": "Blue",
-      "source": {
-        "id": "biYQK0",
-        "handle": "P7AM4Y"
-      },
-      "target": {
-        "id": "GBhXAJ",
-        "handle": "PdZYF_"
-      }
-    },
-    {
-      "id": "ce9z-m",
-      "color": "Black",
-      "source": {
-        "id": "GBhXAJ",
-        "handle": "0YQDD0"
-      },
-      "target": {
-        "id": "co34Tm",
-        "handle": "2oP8km"
-      }
-    },
-    {
-      "id": "YL00AX",
-      "color": "White",
-      "source": {
-        "id": "GBhXAJ",
-        "handle": "8Skvoe"
-      },
-      "target": {
-        "id": "co34Tm",
-        "handle": "5oR31A"
-      }
-    },
     {
       "id": "MqN9Mn",
       "color": "Orange",
@@ -143,8 +93,7 @@
       "target": {
         "id": "PK6V0e",
         "handle": "1sv9wb"
-      },
-      "stripeColor": "Black"
+      }
     },
     {
       "id": "inl6N1",
@@ -156,8 +105,7 @@
       "target": {
         "id": "PK6V0e",
         "handle": "uartRX"
-      },
-      "stripeColor": "Black"
+      }
     },
     {
       "id": "3i28NN",
@@ -196,20 +144,8 @@
       }
     },
     {
-      "id": "MtaI3D",
-      "color": "Red",
-      "source": {
-        "id": "GBhXAJ",
-        "handle": "t5odCB"
-      },
-      "target": {
-        "id": "co34Tm",
-        "handle": "khb9zk"
-      }
-    },
-    {
       "id": "_ZtVQg",
-      "color": "Violet",
+      "color": "Red",
       "source": {
         "id": "gKajIN",
         "handle": "SVNLWV"
@@ -220,35 +156,11 @@
       }
     },
     {
-      "id": "t_M2at",
-      "color": "Violet",
-      "source": {
-        "id": "gKajIN",
-        "handle": "PRrGsk"
-      },
-      "target": {
-        "id": "wt50e1",
-        "handle": "Splice"
-      }
-    },
-    {
       "id": "iah9qv",
-      "color": "Red",
+      "color": "Black",
       "source": {
         "id": "gKajIN",
         "handle": "-ab8gR"
-      },
-      "target": {
-        "id": "rIrVA8",
-        "handle": "Splice"
-      }
-    },
-    {
-      "id": "NlpXin",
-      "color": "Red",
-      "source": {
-        "id": "gKajIN",
-        "handle": "8CNpuK"
       },
       "target": {
         "id": "rIrVA8",
@@ -265,8 +177,7 @@
       "target": {
         "id": "PK6V0e",
         "handle": "Zhr3af"
-      },
-      "stripeColor": "Black"
+      }
     },
     {
       "id": "EqkX1U",
@@ -329,80 +240,8 @@
       }
     },
     {
-      "id": "a-KKlb",
-      "color": "Red",
-      "source": {
-        "id": "W7NTEt",
-        "handle": "1JFwtv"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "aebMBZ"
-      }
-    },
-    {
-      "id": "XeAb-0",
-      "color": "Red",
-      "source": {
-        "id": "W7NTEt",
-        "handle": "FoWDt8"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "k68keg"
-      }
-    },
-    {
-      "id": "PEat9V",
-      "color": "Orange",
-      "source": {
-        "id": "W7NTEt",
-        "handle": "mxQwnD"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "wfUIM1"
-      }
-    },
-    {
-      "id": "bJVT4d",
-      "color": "Yellow",
-      "source": {
-        "id": "W7NTEt",
-        "handle": "rgbULC"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "WAIQg-"
-      }
-    },
-    {
-      "id": "6QiUo1",
-      "color": "Violet",
-      "source": {
-        "id": "wt50e1",
-        "handle": "Splice"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "v5Nays"
-      }
-    },
-    {
-      "id": "43lp_V",
-      "color": "Red",
-      "source": {
-        "id": "PK6V0e",
-        "handle": "k68keg"
-      },
-      "target": {
-        "id": "rIrVA8",
-        "handle": "Splice"
-      }
-    },
-    {
       "id": "6ieK-z",
-      "color": "Green",
+      "color": "Blue",
       "source": {
         "id": "h1dpTN",
         "handle": "kvtBYW"
@@ -414,7 +253,7 @@
     },
     {
       "id": "2bxkU8",
-      "color": "Green",
+      "color": "Blue",
       "source": {
         "id": "h1dpTN",
         "handle": "3gC3oW"
@@ -426,7 +265,7 @@
     },
     {
       "id": "CpKvcz",
-      "color": "Violet",
+      "color": "Red",
       "source": {
         "id": "h1dpTN",
         "handle": "z0_eCq"
@@ -438,7 +277,7 @@
     },
     {
       "id": "9hmCcG",
-      "color": "Red",
+      "color": "Black",
       "source": {
         "id": "h1dpTN",
         "handle": "aHEYUO"
@@ -450,7 +289,7 @@
     },
     {
       "id": "NGL3vj",
-      "color": "Red",
+      "color": "Black",
       "source": {
         "id": "t5Zsno",
         "handle": "1zpYgz"
@@ -462,7 +301,7 @@
     },
     {
       "id": "H7wdQo",
-      "color": "Violet",
+      "color": "Red",
       "source": {
         "id": "t5Zsno",
         "handle": "SXZ012"
@@ -473,32 +312,8 @@
       }
     },
     {
-      "id": "Zlu-0X",
-      "source": {
-        "id": "biYQK0",
-        "handle": "nhFqEM"
-      },
-      "target": {
-        "id": "PK6V0e",
-        "handle": "yVQySL"
-      },
-      "color": "Red"
-    },
-    {
-      "id": "CGMaK7",
-      "source": {
-        "id": "PK6V0e",
-        "handle": "2sDmRa"
-      },
-      "target": {
-        "id": "biYQK0",
-        "handle": "P7AM4Y"
-      },
-      "color": "Blue"
-    },
-    {
       "id": "XLVFPv",
-      "color": "Red",
+      "color": "Black",
       "source": {
         "id": "gKajIN",
         "handle": "QIMtSV"
@@ -509,29 +324,529 @@
       }
     },
     {
-      "id": "4eu0HT",
+      "id": "oFL3k9",
       "source": {
-        "id": "PK6V0e",
-        "handle": "v5Nays"
+        "id": "wt50e1",
+        "handle": "Splice"
       },
       "target": {
-        "id": "p35N51",
+        "id": "omQoUq",
+        "handle": "5WukIl"
+      },
+      "color": "Red",
+      "layoutPoints": [
+        {
+          "id": "PTlQ59",
+          "schematicPosition": {
+            "x": -510,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "id": "0z36tN",
+      "source": {
+        "id": "rIrVA8",
         "handle": "Splice"
+      },
+      "target": {
+        "id": "omQoUq",
+        "handle": "Jb5oZX"
+      },
+      "color": "Black",
+      "layoutPoints": [
+        {
+          "id": "72Ltll",
+          "schematicPosition": {
+            "x": -510,
+            "y": 270
+          }
+        }
+      ]
+    },
+    {
+      "id": "zoveSH",
+      "source": {
+        "id": "W7NTEt",
+        "handle": "1JFwtv"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "aebMBZ"
+      },
+      "color": "Green"
+    },
+    {
+      "id": "_IMzbl",
+      "source": {
+        "id": "PK6V0e",
+        "handle": "wfUIM1"
+      },
+      "target": {
+        "id": "W7NTEt",
+        "handle": "mxQwnD"
+      },
+      "color": "Blue"
+    },
+    {
+      "id": "F_OiaT",
+      "source": {
+        "id": "PK6V0e",
+        "handle": "WAIQg-"
+      },
+      "target": {
+        "id": "W7NTEt",
+        "handle": "rgbULC"
+      },
+      "color": "Gray"
+    },
+    {
+      "id": "dsBFSv",
+      "source": {
+        "id": "dDS1bV",
+        "handle": "ET6Moo"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "nAc7xr"
+      },
+      "color": "Blue"
+    },
+    {
+      "id": "NWdtlr",
+      "source": {
+        "id": "dDS1bV",
+        "handle": "Off-87"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "nAc7xr"
+      },
+      "color": "Blue"
+    },
+    {
+      "id": "3rSE4H",
+      "source": {
+        "id": "dDS1bV",
+        "handle": "ZZcfbe"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "nAc7xr"
+      },
+      "color": "Blue"
+    },
+    {
+      "id": "KF3Bhu",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "YxXt-L"
+      },
+      "target": {
+        "id": "HlSMG3",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "RAyqLw",
+      "source": {
+        "id": "omQoUq",
+        "handle": "5WukIl"
+      },
+      "target": {
+        "id": "HlSMG3",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "O_Aapw",
+      "source": {
+        "id": "omQoUq",
+        "handle": "Jb5oZX"
+      },
+      "target": {
+        "id": "igptUy",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "3fIDoM",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "t5odCB"
+      },
+      "target": {
+        "id": "ubsss0",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "gNKYdR",
+      "source": {
+        "id": "co34Tm",
+        "handle": "khb9zk"
+      },
+      "target": {
+        "id": "ubsss0",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "2q1bzs",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "0YQDD0"
+      },
+      "target": {
+        "id": "fK36T_",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "lvy7sO",
+      "source": {
+        "id": "co34Tm",
+        "handle": "2oP8km"
+      },
+      "target": {
+        "id": "fK36T_",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "w9FeRv",
+      "source": {
+        "id": "GBhXAJ",
+        "handle": "8Skvoe"
+      },
+      "target": {
+        "id": "8Gf7fV",
+        "handle": "Splice"
+      },
+      "color": "White"
+    },
+    {
+      "id": "mf4lCa",
+      "source": {
+        "id": "co34Tm",
+        "handle": "5oR31A"
+      },
+      "target": {
+        "id": "8Gf7fV",
+        "handle": "Splice"
+      },
+      "color": "White"
+    },
+    {
+      "id": "fGoIcP",
+      "source": {
+        "id": "HlSMG3",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "biYQK0",
+        "handle": "nhFqEM"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "nLW4Ff",
+      "source": {
+        "id": "igptUy",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "biYQK0",
+        "handle": "P7AM4Y"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "kiECdO",
+      "source": {
+        "id": "igptUy",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "GBhXAJ",
+        "handle": "PdZYF_"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "6YplaG",
+      "source": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "00xYid",
+        "handle": "uTLovn"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "yb7Cug",
+      "source": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "00xYid",
+        "handle": "LPYcGa"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "nsJi1i",
+      "source": {
+        "id": "00xYid",
+        "handle": "25pxFz"
+      },
+      "target": {
+        "id": "igptUy",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "bAXJr_",
+      "source": {
+        "id": "00xYid",
+        "handle": "WB525R"
+      },
+      "target": {
+        "id": "HlSMG3",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "Hjc5im",
+      "source": {
+        "id": "XKV331",
+        "handle": "6HXvX2"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "Y0wapm",
+      "source": {
+        "id": "wj81LU",
+        "handle": "3tzlRX"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "aqynPL",
+      "source": {
+        "id": "K7kUEk",
+        "handle": "QWYrlQ"
+      },
+      "target": {
+        "id": "wt50e1",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "n_sYkZ",
+      "source": {
+        "id": "XKV331",
+        "handle": "ILwX80"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "twdt0D",
+      "source": {
+        "id": "wj81LU",
+        "handle": "dI5NBf"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "4bsqMs",
+      "source": {
+        "id": "K7kUEk",
+        "handle": "Lo-PgJ"
+      },
+      "target": {
+        "id": "rIrVA8",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "Y_rdYx",
+      "source": {
+        "id": "XKV331",
+        "handle": "OLIZo8"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "FxOt-Q"
       },
       "color": "Violet"
     },
     {
-      "id": "JUPv1z",
+      "id": "xtmxEB",
       "source": {
-        "id": "W7NTEt",
-        "handle": "er6uDs"
+        "id": "wj81LU",
+        "handle": "J_grOo"
       },
       "target": {
-        "id": "p35N51",
-        "handle": "Splice"
+        "id": "PK6V0e",
+        "handle": "FxOt-Q"
       },
       "color": "Violet",
-      "stripeColor": "Black"
+      "layoutPoints": [
+        {
+          "id": "88rs4d",
+          "schematicPosition": {
+            "x": -1020,
+            "y": 840
+          }
+        }
+      ]
+    },
+    {
+      "id": "jJU8jq",
+      "source": {
+        "id": "K7kUEk",
+        "handle": "PWC54E"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "FxOt-Q"
+      },
+      "color": "Violet",
+      "layoutPoints": [
+        {
+          "id": "qRMLAW",
+          "schematicPosition": {
+            "x": -960,
+            "y": 840
+          }
+        }
+      ]
+    },
+    {
+      "id": "PXy_fX",
+      "source": {
+        "id": "XKV331",
+        "handle": "hdBXvS"
+      },
+      "target": {
+        "id": "ubsss0",
+        "handle": "Splice"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "_7m9YX",
+      "source": {
+        "id": "wj81LU",
+        "handle": "omTq3K"
+      },
+      "target": {
+        "id": "fK36T_",
+        "handle": "Splice"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "8UPA9d",
+      "source": {
+        "id": "K7kUEk",
+        "handle": "5dDJOH"
+      },
+      "target": {
+        "id": "8Gf7fV",
+        "handle": "Splice"
+      },
+      "color": "White"
+    },
+    {
+      "id": "XGMjhS",
+      "source": {
+        "id": "00xYid",
+        "handle": "B45fHP"
+      },
+      "target": {
+        "id": "PK6V0e",
+        "handle": "FxOt-Q"
+      },
+      "color": "Violet",
+      "layoutPoints": [
+        {
+          "id": "4mybtn",
+          "schematicPosition": {
+            "x": -1320,
+            "y": -570
+          }
+        }
+      ]
+    },
+    {
+      "id": "t2uuCQ",
+      "source": {
+        "id": "ubsss0",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "XKV331",
+        "handle": "Y_H502"
+      },
+      "color": "Black"
+    },
+    {
+      "id": "Rif-u8",
+      "source": {
+        "id": "fK36T_",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "wj81LU",
+        "handle": "PmYWVj"
+      },
+      "color": "Red"
+    },
+    {
+      "id": "jDZnH2",
+      "source": {
+        "id": "8Gf7fV",
+        "handle": "Splice"
+      },
+      "target": {
+        "id": "K7kUEk",
+        "handle": "QTFezu"
+      },
+      "color": "White"
     }
   ],
   "connectors": [
@@ -577,17 +892,18 @@
         }
       ],
       "layoutPosition": {
-        "x": 270,
-        "y": 480
+        "x": 300,
+        "y": 630
       },
       "schematicPosition": {
-        "x": 240,
+        "x": 270,
         "y": 450
-      }
+      },
+      "width": 180
     },
     {
       "id": "t5Zsno",
-      "label": "AMT132",
+      "label": "AMT132S-V",
       "cavities": [
         {
           "id": "o5EKkv",
@@ -623,11 +939,11 @@
         }
       ],
       "layoutPosition": {
-        "x": 270,
-        "y": 300
+        "x": 300,
+        "y": 210
       },
       "schematicPosition": {
-        "x": 240,
+        "x": 270,
         "y": 780
       }
     },
@@ -654,11 +970,11 @@
         }
       ],
       "layoutPosition": {
-        "x": 270,
-        "y": 390
+        "x": 300,
+        "y": 420
       },
       "schematicPosition": {
-        "x": 240,
+        "x": 270,
         "y": 240
       }
     },
@@ -689,11 +1005,11 @@
       ],
       "layoutPosition": {
         "x": -360,
-        "y": 210
+        "y": -30
       },
       "schematicPosition": {
         "x": -480,
-        "y": -270
+        "y": -480
       }
     },
     {
@@ -734,12 +1050,12 @@
         }
       ],
       "layoutPosition": {
-        "x": 120,
-        "y": 60
+        "x": 30,
+        "y": -360
       },
       "schematicPosition": {
-        "x": -120,
-        "y": -240
+        "x": 270,
+        "y": -210
       }
     },
     {
@@ -756,12 +1072,12 @@
         }
       ],
       "layoutPosition": {
-        "x": -360,
-        "y": 150
+        "x": -660,
+        "y": 30
       },
       "schematicPosition": {
-        "x": -1230,
-        "y": 150
+        "x": -1800,
+        "y": -390
       }
     },
     {
@@ -843,6 +1159,14 @@
         {
           "id": "Zhr3af",
           "signal": "NC | AMT MCLR"
+        },
+        {
+          "id": "nAc7xr",
+          "signal": "CN1 | STLK"
+        },
+        {
+          "id": "FxOt-Q",
+          "signal": "Current Sensors"
         }
       ],
       "layoutPosition": {
@@ -850,13 +1174,14 @@
         "y": 420
       },
       "schematicPosition": {
-        "x": -870,
-        "y": 330
-      }
+        "x": -1290,
+        "y": 210
+      },
+      "width": 210
     },
     {
       "id": "CxBvYe",
-      "label": "ZS-Z11H (Motor Signal)",
+      "label": "ZS-X11H (Motor Signal)",
       "cavities": [
         {
           "id": "HqY3Wm",
@@ -880,17 +1205,18 @@
         }
       ],
       "layoutPosition": {
-        "x": -360,
-        "y": 270
+        "x": 30,
+        "y": 180
       },
       "schematicPosition": {
-        "x": -480,
-        "y": -60
-      }
+        "x": -690,
+        "y": -120
+      },
+      "width": 210
     },
     {
       "id": "W7NTEt",
-      "label": "ZS-Z11H (MCU Signal)",
+      "label": "ZS-X11H (MCU Signal)",
       "cavities": [
         {
           "id": "er6uDs",
@@ -914,64 +1240,302 @@
         }
       ],
       "layoutPosition": {
-        "x": -360,
-        "y": 330
+        "x": -90,
+        "y": 300
       },
       "schematicPosition": {
-        "x": -480,
+        "x": -960,
+        "y": -120
+      },
+      "width": 210
+    },
+    {
+      "id": "omQoUq",
+      "cavities": [
+        {
+          "id": "5WukIl",
+          "signal": "Input/Output +"
+        },
+        {
+          "id": "Jb5oZX",
+          "signal": "Input/Output -"
+        }
+      ],
+      "width": 180,
+      "schematicPosition": {
+        "x": -1290,
+        "y": 90
+      },
+      "layoutPosition": {
+        "x": -360,
         "y": 150
-      }
+      },
+      "label": "LM2596"
+    },
+    {
+      "id": "dDS1bV",
+      "cavities": [
+        {
+          "id": "ET6Moo",
+          "signal": "VIN"
+        },
+        {
+          "id": "Off-87",
+          "signal": "GND"
+        },
+        {
+          "id": "ZZcfbe",
+          "signal": "CRTL Input"
+        }
+      ],
+      "schematicPosition": {
+        "x": -1830,
+        "y": 750
+      },
+      "layoutPosition": {
+        "x": -660,
+        "y": 420
+      },
+      "label": "Laptop (VIA STLK)"
+    },
+    {
+      "id": "00xYid",
+      "cavities": [
+        {
+          "id": "uTLovn",
+          "signal": "Sensor PWR"
+        },
+        {
+          "id": "LPYcGa",
+          "signal": "Sensor GND"
+        },
+        {
+          "id": "B45fHP",
+          "signal": "Communication"
+        },
+        {
+          "id": "25pxFz",
+          "signal": "Measurement GND"
+        },
+        {
+          "id": "WB525R",
+          "signal": "Measurement PWR"
+        }
+      ],
+      "width": 210,
+      "schematicPosition": {
+        "x": -1260,
+        "y": -660
+      },
+      "layoutPosition": {
+        "x": -180,
+        "y": -330
+      },
+      "label": "Current Sensor (High Side)"
+    },
+    {
+      "id": "XKV331",
+      "cavities": [
+        {
+          "id": "6HXvX2",
+          "signal": "Sensor PWR"
+        },
+        {
+          "id": "ILwX80",
+          "signal": "Sensor GND"
+        },
+        {
+          "id": "OLIZo8",
+          "signal": "Communication"
+        },
+        {
+          "id": "Y_H502",
+          "signal": "Measurement GND"
+        },
+        {
+          "id": "hdBXvS",
+          "signal": "Measurement PWR"
+        }
+      ],
+      "width": 210,
+      "schematicPosition": {
+        "x": 270,
+        "y": -840
+      },
+      "layoutPosition": {
+        "x": 180,
+        "y": -360
+      },
+      "label": "Current Sensor (Inline A)"
+    },
+    {
+      "id": "wj81LU",
+      "cavities": [
+        {
+          "id": "3tzlRX",
+          "signal": "Sensor PWR"
+        },
+        {
+          "id": "dI5NBf",
+          "signal": "Sensor GND"
+        },
+        {
+          "id": "J_grOo",
+          "signal": "Communication"
+        },
+        {
+          "id": "PmYWVj",
+          "signal": "Measurement GND"
+        },
+        {
+          "id": "omTq3K",
+          "signal": "Measurement PWR"
+        }
+      ],
+      "width": 210,
+      "schematicPosition": {
+        "x": 270,
+        "y": -630
+      },
+      "layoutPosition": {
+        "x": 330,
+        "y": -360
+      },
+      "label": "Current Sensor (Inline B)"
+    },
+    {
+      "id": "K7kUEk",
+      "cavities": [
+        {
+          "id": "QWYrlQ",
+          "signal": "Sensor PWR"
+        },
+        {
+          "id": "Lo-PgJ",
+          "signal": "Sensor GND"
+        },
+        {
+          "id": "PWC54E",
+          "signal": "Communication"
+        },
+        {
+          "id": "QTFezu",
+          "signal": "Measurement GND"
+        },
+        {
+          "id": "5dDJOH",
+          "signal": "Measurement PWR"
+        }
+      ],
+      "width": 210,
+      "schematicPosition": {
+        "x": 270,
+        "y": -420
+      },
+      "layoutPosition": {
+        "x": 450,
+        "y": -360
+      },
+      "label": "Current Sensor (Inline C)"
     }
   ],
   "bundles": [
     {
-      "id": "E7Ha-v",
-      "sourceId": "GBhXAJ",
-      "targetId": "Ra4SS1"
-    },
-    {
-      "id": "BrgQHE",
-      "sourceId": "biYQK0",
-      "targetId": "Ra4SS1"
-    },
-    {
-      "id": "NivmSo",
-      "sourceId": "co34Tm",
-      "targetId": "Ra4SS1"
-    },
-    {
-      "id": "FfvjXS",
-      "sourceId": "h1dpTN",
-      "targetId": "ZcMq4K"
-    },
-    {
-      "id": "97bmBW",
+      "id": "63LcBH",
       "sourceId": "t5Zsno",
-      "targetId": "ZcMq4K"
+      "targetId": "vrmP0z"
     },
     {
-      "id": "2l6en7",
-      "sourceId": "gKajIN",
-      "targetId": "ZcMq4K"
-    },
-    {
-      "id": "jtxpPx",
-      "sourceId": "CxBvYe",
-      "targetId": "Ra4SS1"
-    },
-    {
-      "id": "p0-Ig3",
-      "sourceId": "W7NTEt",
-      "targetId": "ZcMq4K"
-    },
-    {
-      "id": "5d98sU",
+      "id": "XyaPiC",
       "sourceId": "PK6V0e",
-      "targetId": "ZcMq4K",
-      "length": {
-        "value": 100,
-        "unit": "mm"
-      }
+      "targetId": "vrmP0z"
+    },
+    {
+      "id": "2gRpiR",
+      "sourceId": "h1dpTN",
+      "targetId": "vrmP0z"
+    },
+    {
+      "id": "aJh1nO",
+      "sourceId": "gKajIN",
+      "targetId": "vrmP0z"
+    },
+    {
+      "id": "GNdwor",
+      "sourceId": "omQoUq",
+      "targetId": "vrmP0z"
+    },
+    {
+      "id": "zNVLYa",
+      "sourceId": "GBhXAJ",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "8SYwkR",
+      "sourceId": "co34Tm",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "eytolT",
+      "sourceId": "CxBvYe",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "MTDQQ-",
+      "sourceId": "PK6V0e",
+      "targetId": "W7NTEt"
+    },
+    {
+      "id": "jy1HTk",
+      "sourceId": "omQoUq",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "tUAQKF",
+      "sourceId": "XKV331",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "XiKxWv",
+      "sourceId": "wj81LU",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "KmWa2u",
+      "sourceId": "K7kUEk",
+      "targetId": "_QjTR5"
+    },
+    {
+      "id": "87XpbL",
+      "sourceId": "00xYid",
+      "targetId": "GBhXAJ"
+    },
+    {
+      "id": "9P2ksN",
+      "sourceId": "_QjTR5",
+      "targetId": "PK6V0e"
+    }
+  ],
+  "mates": [
+    {
+      "id": "y4JMLD",
+      "sourceId": "dDS1bV",
+      "targetId": "PK6V0e"
+    },
+    {
+      "id": "uRAP7j",
+      "sourceId": "W7NTEt",
+      "targetId": "CxBvYe"
+    },
+    {
+      "id": "TDlJ_P",
+      "sourceId": "biYQK0",
+      "targetId": "GBhXAJ"
+    },
+    {
+      "id": "k6XBwb",
+      "sourceId": "biYQK0",
+      "targetId": "omQoUq"
     }
   ],
   "splices": [
@@ -979,7 +1543,11 @@
       "id": "wt50e1",
       "schematicPosition": {
         "x": 150,
-        "y": 420
+        "y": 390
+      },
+      "layoutPosition": {
+        "x": -390,
+        "y": 240
       }
     },
     {
@@ -987,29 +1555,98 @@
       "schematicPosition": {
         "x": 180,
         "y": 450
+      },
+      "layoutPosition": {
+        "x": -330,
+        "y": 240
       }
     },
     {
-      "id": "p35N51",
+      "id": "igptUy",
       "schematicPosition": {
-        "x": -630,
-        "y": 420
+        "x": -1350,
+        "y": -330
+      },
+      "layoutPosition": {
+        "x": -330,
+        "y": 30
+      }
+    },
+    {
+      "id": "HlSMG3",
+      "schematicPosition": {
+        "x": -1380,
+        "y": -360
+      },
+      "layoutPosition": {
+        "x": -390,
+        "y": 30
+      }
+    },
+    {
+      "id": "ubsss0",
+      "schematicPosition": {
+        "x": -90,
+        "y": -300
+      },
+      "layoutPosition": {
+        "x": 120,
+        "y": 120
+      }
+    },
+    {
+      "id": "fK36T_",
+      "schematicPosition": {
+        "x": -60,
+        "y": -240
+      },
+      "layoutPosition": {
+        "x": 120,
+        "y": 60
+      }
+    },
+    {
+      "id": "8Gf7fV",
+      "schematicPosition": {
+        "x": -30,
+        "y": -180
+      },
+      "layoutPosition": {
+        "x": 120,
+        "y": 90
       }
     }
   ],
-  "branchPoints": [
+  "schematicNotes": [
     {
-      "id": "Ra4SS1",
-      "layoutPosition": {
-        "x": -30,
-        "y": 270
-      }
-    },
+      "id": "sLHVhN",
+      "schematicPosition": {
+        "x": -780,
+        "y": -180
+      },
+      "text": "This is on the same board"
+    }
+  ],
+  "branchPoints": [
     {
       "id": "ZcMq4K",
       "layoutPosition": {
         "x": -90,
         "y": 390
+      }
+    },
+    {
+      "id": "vrmP0z",
+      "layoutPosition": {
+        "x": -60,
+        "y": 420
+      }
+    },
+    {
+      "id": "_QjTR5",
+      "layoutPosition": {
+        "x": 30,
+        "y": 60
       }
     }
   ],
